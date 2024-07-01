@@ -8,7 +8,7 @@ cache: false
 
 endpoints:
   azureOpenAI:
-    titleModel: "gpt-4o"
+    titleModel: "gpt-35-turbo"
     plugins: true
     assistants: false
     groups:
@@ -44,9 +44,9 @@ endpoints:
         apiKey: "${MISTRAL_API_KEY}"
         baseURL: "https://api.mistral.ai/v1"
         models:
-          default: ["mistral-tiny", "mistral-small", "mistral-medium", "mistral -large-latest"]
-          fetch: true
+          default: ["open-mistral-7b", "mistral-small", "mistral-medium-latest", "mistral-large-latest", "codestral-latest"]
+          fetch: false
         titleConvo: true
-        titleModel: "mistral-tiny"
+        titleModel: "open-mistral-7b"
         modelDisplayLabel: "Mistral"
         dropParams: ["user", "frequency_penalty", "presence_penalty"]
