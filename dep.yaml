@@ -42,7 +42,7 @@ endpoints:
 
 modelSpecs:
   enforce: false
-  prioritize: true
+  prioritize: false
   list:
     # Azure OpenAI  
     - name: "Azure OpenAI"
