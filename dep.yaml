@@ -9,6 +9,10 @@ cache: false
 endpoints:
   azureOpenAI:
     titleModel: "gpt-35-turbo"
+    titleConvo: true
+    titleMethod: "completion"
+    summarize: true
+    summaryModel: "gpt-35-turbo"
     plugins: true
     assistants: false
     groups:
