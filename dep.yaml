@@ -4,7 +4,7 @@
 # Configuration version (required)
 version: 1.0.5
 # This setting caches the config file for faster loading across app lifecycle
-cache: true
+cache: false
 
 endpoints:
   azureOpenAI:
@@ -39,3 +39,4 @@ endpoints:
           gpt-35-turbo:
             deploymentName: gpt35_turbo_0613_4k
             version: "2023-03-15-preview"
+
