@@ -21,15 +21,15 @@ endpoints:
           gpt-4o:
             deploymentName: gpt4o
             version: "2023-03-15-preview"
-      - group: "my-eastus-gpt4"
-        apiKey: "${EASTUS_API_KEY}"
-        instanceName: "${EASTINSTANCE}"
-        version: "2023-03-15-preview"
-        deploymentName: 4_0124Preview
-        models:
-          gpt-4:
-            deploymentName: 4_0124Preview
-            version: "2023-03-15-preview"
+      # - group: "my-eastus-gpt4"
+      #   apiKey: "${EASTUS_API_KEY}"
+      #   instanceName: "${EASTINSTANCE}"
+      #   version: "2023-03-15-preview"
+      #   deploymentName: 4_0124Preview
+      #   models:
+      #     gpt-4:
+      #       deploymentName: 4_0124Preview
+      #       version: "2023-03-15-preview"
       - group: "my-eastus-gpt3"
         apiKey: "${EASTUS_API_KEY}"
         instanceName: "${EASTINSTANCE}"
